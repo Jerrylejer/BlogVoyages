@@ -9,9 +9,11 @@ import { HeaderComponent } from './components/sharedComponents/header/header.com
 import { FooterComponent } from './components/sharedComponents/footer/footer.component';
 import { OtherArticleComponent } from './components/other-article/other-article.component';
 import { ReturnButtonComponent } from './components/return-button/return-button.component';
-import { TripResumeComponent } from './components/trip-resume/trip-resume.component';
-import { NoticesComponent } from './components/notices/notices.component';
-import { MoreTripsComponent } from './components/more-trips/more-trips.component';
+import { LastArticleComponent } from './components/last-article/last-article.component';
+import { MoreArticleLinksComponent } from './components/more-article-links/more-article-links.component';
+import { TripSummaryComponent } from './components/trip-summary/trip-summary.component';
+import { OurOpinionComponent } from './components/our-opinion/our-opinion.component';
+import { ImageArticleGalleryComponent } from './components/image-article-gallery/image-article-gallery.component';
 
 @NgModule({
   declarations: [
@@ -22,9 +24,11 @@ import { MoreTripsComponent } from './components/more-trips/more-trips.component
     FooterComponent,
     OtherArticleComponent,
     ReturnButtonComponent,
-    TripResumeComponent,
-    NoticesComponent,
-    MoreTripsComponent
+    LastArticleComponent,
+    MoreArticleLinksComponent,
+    TripSummaryComponent,
+    OurOpinionComponent,
+    ImageArticleGalleryComponent
   ],
   imports: [
     BrowserModule,
