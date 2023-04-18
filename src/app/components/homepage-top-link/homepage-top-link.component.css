@@ -1,7 +1,35 @@
 .homepage-top-link-container {
-    margin-top: 165px;
-    margin-bottom: 210px;
-    display: flex;
-    justify-content: center;
-    padding-top: 20px;
+  margin-top: 165px;
+  margin-bottom: 210px;
+  display: flex;
+  justify-content: center;
+  padding-top: 20px;
+}
+
+.image {
+  position: relative;
+}
+
+.caption {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 118px;
+  width: 100%;
+  background-color: var(--legend);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: var(--white);
+}
+
+.trip {
+    margin-left: 49px;
+}
+
+.dates {
+    margin-right: 38px;
+    padding-left: 35px;
+    border-left: 1px solid white;
+    line-height: 7.2rem;
 }
