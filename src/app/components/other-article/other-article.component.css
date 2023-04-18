@@ -19,3 +19,37 @@
   gap: 29px;
   width: 80%;
 }
+
+.caption {
+  height: 118px;
+  width: 100%;
+  background-color: var(--paragraph);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: var(--white);
+  margin-top: -4px;
+}
+
+.trip-and-city {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.trip {
+    margin-left: 49px;
+    font-weight: 400;
+}
+
+.city {
+  margin-left: 49px;
+}
+
+.dates {
+    color: var(--white);
+    margin-right: 38px;
+    padding-left: 35px;
+    border-left: 1px solid white;
+}

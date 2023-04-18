@@ -2,9 +2,27 @@
     <h1 class="other-article-title">Autres voyages</h1>
     <div class="other-article">
         <ng-container *ngFor="let otherArticle of otherArticles">
-            <div>
+            <figure>
                <img src="{{otherArticle.secondaryImages}}" alt="img"> 
-            </div>
+               <figcaption class="caption">
+                <div class="trip-and-city">
+                    <h3 class="trip">
+                        {{otherArticle.country}}
+                    </h3>
+                    <h4 class="city">
+                        {{otherArticle.city}}
+                    </h4>
+                </div>
+                <div class="way-and-back">
+                    <h4 class="dates">
+                        Du {{otherArticle.departureDate}} 
+                    </h4>
+                    <h4 class="dates">
+                        au {{otherArticle.returnDate}}
+                    </h4>
+                </div>
+               </figcaption>
+            </figure>
         </ng-container>
     </div>
 </section>

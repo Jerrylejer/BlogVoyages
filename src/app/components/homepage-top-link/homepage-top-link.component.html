@@ -1,8 +1,15 @@
 <section class="homepage-top-link-container">
     <ng-container *ngFor="let topArticle of topArticles">
-        <figure *ngIf="topArticle.topArticle === true">
+        <figure *ngIf="topArticle.topArticle === true" class="image">
            <img src="{{topArticle.mainImage}}" alt="img"> 
-           <figcaption>hello</figcaption>
+           <figcaption class="caption">
+            <h2 class="trip">
+                {{topArticle.country}} - {{topArticle.city}}
+            </h2>
+            <h4 class="dates">
+                {{topArticle.departureDate}} - {{topArticle.returnDate}}
+            </h4>
+           </figcaption>
         </figure>
     </ng-container>
 </section>
