@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { ARTICLES, Iarticle } from 'src/app/mock/Article';
 
 @Component({
   selector: 'app-other-article',
@@ -6,5 +7,8 @@ import { Component } from '@angular/core';
   styleUrls: ['./other-article.component.css']
 })
 export class OtherArticleComponent {
+
+  otherArticles: Iarticle[] = ARTICLES;
+  otherArticle!: Iarticle;
 
 }

@@ -6,11 +6,11 @@ import { ArticleComponent } from './pages/article/article.component';
 
 const routes: Routes = [
 {
-  path: '/',
+  path: '',
   component: HomeComponent
 },
 {
-  path: '/article',
+  path: 'article',
   component: ArticleComponent
 }
 ];

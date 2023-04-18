@@ -7,6 +7,10 @@
   box-sizing: border-box;
 }
 
+body {
+  margin-left: 137px;
+}
+
 /* FONT-FAMILY */
 h1 {
   font-family: "Lora", serif;
@@ -14,7 +18,8 @@ h1 {
 }
 
 h2 {
-  font-family: "Inter", sans-serif;
+  font-family: "Lora", sans-serif;
+  font-weight: 400;
   font-size: 30px;
 }
 
@@ -25,6 +30,7 @@ h1 {
 
 h4 {
   font-family: "Inter", sans-serif;
+  font-weight: 400;
   font-size: 16px;
 }
 

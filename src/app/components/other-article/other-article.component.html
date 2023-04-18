@@ -1,3 +1,10 @@
-<div class="other-article-container">
-    <p>other-article works!</p>
-</div>
+<section class="flex">
+    <h1 class="other-article-title">Autres voyages</h1>
+    <div class="other-article">
+        <ng-container *ngFor="let otherArticle of otherArticles">
+            <div>
+               <img src="{{otherArticle.secondaryImages}}" alt="img"> 
+            </div>
+        </ng-container>
+    </div>
+</section>
