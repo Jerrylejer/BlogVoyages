@@ -1,5 +1,8 @@
-/* .layoutcolumn {
-    display: flex;
-    flex-wrap: wrap;
+.main {
+    height: 5000px
+}
+
+.footer {
+    height: 308px;
     width: 100vw;
-} */
+}

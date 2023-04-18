@@ -1,0 +1,9 @@
+<section class="homepage-top-link-container">
+    <ng-container *ngFor="let topArticle of topArticles">
+        <figure *ngIf="topArticle.topArticle === true">
+           <img src="{{topArticle.mainImage}}" alt="img"> 
+           <figcaption>hello</figcaption>
+        </figure>
+    </ng-container>
+</section>
+

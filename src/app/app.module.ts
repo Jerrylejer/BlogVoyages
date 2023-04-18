@@ -14,6 +14,7 @@ import { MoreArticleLinksComponent } from './components/more-article-links/more-
 import { TripSummaryComponent } from './components/trip-summary/trip-summary.component';
 import { OurOpinionComponent } from './components/our-opinion/our-opinion.component';
 import { ImageArticleGalleryComponent } from './components/image-article-gallery/image-article-gallery.component';
+import { HomepageTopLinkComponent } from './components/homepage-top-link/homepage-top-link.component';
 
 @NgModule({
   declarations: [
@@ -28,7 +29,8 @@ import { ImageArticleGalleryComponent } from './components/image-article-gallery
     MoreArticleLinksComponent,
     TripSummaryComponent,
     OurOpinionComponent,
-    ImageArticleGalleryComponent
+    ImageArticleGalleryComponent,
+    HomepageTopLinkComponent
   ],
   imports: [
     BrowserModule,
