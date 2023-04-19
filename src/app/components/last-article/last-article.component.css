@@ -1,0 +1,13 @@
+.last-article {
+    height: auto;
+}
+
+.last-article-container {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.last-article-dates {
+    margin-bottom: 44px;
+}
+
