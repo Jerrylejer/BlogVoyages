@@ -18,6 +18,7 @@
   flex-wrap: wrap;
   gap: 29px;
   width: 80%;
+  cursor: pointer;
 }
 
 .caption {

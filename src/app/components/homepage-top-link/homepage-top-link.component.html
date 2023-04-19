@@ -1,6 +1,6 @@
 <section class="homepage-top-link-container">
     <ng-container *ngFor="let topArticle of topArticles">
-        <figure *ngIf="topArticle.topArticle === true" class="image">
+        <figure *ngIf="topArticle.topArticle === true" class="image" routerLink="article/{{topArticle.id}}">
            <img src="{{topArticle.mainImage}}" alt="img"> 
            <figcaption class="caption">
             <h2 class="trip">
