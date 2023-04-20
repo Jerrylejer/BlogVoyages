@@ -11,8 +11,4 @@ export class HomepageTopLinkComponent {
   topArticles: Iarticle[] = ARTICLES;
   topArticle!: Iarticle;
 
-  ngOnInit() {
-    console.log(this.topArticles[0].city)
-  }
-
 }

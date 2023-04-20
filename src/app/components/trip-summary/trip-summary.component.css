@@ -1,0 +1,17 @@
+.trip{
+    height: auto;
+    margin-bottom: 115px;
+    background-color: var(--paragraph);
+    max-width: 54vw;
+    padding: 69px 56px;
+    color: var(--white);
+}
+
+.main-title{
+    margin-bottom: 44px;
+}
+
+.trip-container {
+    display: flex;
+    justify-content: flex-start;
+}

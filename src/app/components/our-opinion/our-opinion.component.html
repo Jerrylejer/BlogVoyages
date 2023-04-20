@@ -1,1 +1,15 @@
-<p>our-opinion works!</p>
+<section class="our-opinion">
+    <h1 class="main-title">Notre avis</h1>
+    <h3 class="title">Les plus</h3>
+        <ul class="our-opinion-container" *ngFor="let positivePoints of positivePoints">
+            <li>{{positivePoints.text}}</li>
+        </ul>
+    <h3 class="title">Les moins</h3>
+        <ul class="our-opinion-container" *ngFor="let negativePoints of negativePoints">
+            <li>{{negativePoints.text}}</li>
+        </ul>
+    <h3 class="title">Mon conseil</h3>
+        <ul class="our-opinion-container" *ngFor="let advices of advices">
+            <li>{{advices.text}}</li>
+        </ul>
+</section>

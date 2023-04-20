@@ -1,4 +1,6 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
+import { ARTICLES, Iarticle, Igallery } from 'src/app/mock/Article';
+
 
 @Component({
   selector: 'app-image-article-gallery',
@@ -7,4 +9,8 @@ import { Component } from '@angular/core';
 })
 export class ImageArticleGalleryComponent {
 
+  otherPictures: Iarticle[] = ARTICLES;
+  otherPicture?: Iarticle;
+
+  @Input() gallery!: Igallery[];
 }

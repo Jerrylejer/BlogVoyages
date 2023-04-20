@@ -11,8 +11,4 @@ export class OtherArticleComponent {
   otherArticles: Iarticle[] = ARTICLES;
   otherArticle!: Iarticle;
 
-  ifClicked() {
-    
-  }
-
 }

@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
 import { ARTICLES, Iarticle } from 'src/app/mock/Article';
 
 
@@ -11,5 +11,11 @@ export class LastArticleComponent {
 
   lastArticles: Iarticle[] = ARTICLES;
   lastArticle!: Iarticle;
+
+  @Input() country!: string;
+  @Input() city!: string;
+  @Input() departureDate!: string;
+  @Input() returnDate!: string;
+  @Input() mainImage!: string;
 
 }

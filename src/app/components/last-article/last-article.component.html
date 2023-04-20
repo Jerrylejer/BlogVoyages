@@ -1,11 +1,5 @@
 <section class="last-article">
-    <ng-container *ngFor="let lastArticle of lastArticles" class="last-article-container">
-        <div *ngIf="lastArticle.topArticle === true">
-            <h1>{{lastArticle.country}}-{{lastArticle.city}}</h1>
-            <h4 class="last-article-dates">{{lastArticle.departureDate}}-{{lastArticle.returnDate}}</h4>
-            <figure>
-                <img src="{{lastArticle.mainImage}}" alt="image selected trip">
-            </figure>
-        </div>
-    </ng-container>
+      <h1>{{country}} - {{city}}</h1>
+      <h4>{{departureDate}}-{{returnDate}}</h4>
+      <img src="{{mainImage}}" alt="{{country}}">
 </section>

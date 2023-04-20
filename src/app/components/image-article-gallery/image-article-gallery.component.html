@@ -1,1 +1,6 @@
-<p>image-article-gallery works!</p>
+<section class="gallery">
+    <h1>Pour voyager un peu plus</h1>
+    <div class="gallery-container">
+                <img *ngFor="let image of gallery" src="{{image.image}}" alt="{{image.title}}">
+      </div>
+</section>

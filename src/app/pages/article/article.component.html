@@ -1,8 +1,8 @@
 <section class="article-layout">
-    <app-last-article></app-last-article>
-    <app-more-article-links></app-more-article-links>
-    <app-return-button></app-return-button>
-    <app-trip-summary></app-trip-summary>
-    <app-our-opinion></app-our-opinion>
-    <app-image-article-gallery></app-image-article-gallery>
+        <app-last-article [country]="article!.country" [city]="article!.city" [departureDate]="article!.departureDate" [returnDate]="article!.returnDate" [mainImage]="article!.mainImage"></app-last-article>
+        <app-trip-summary [title]="'Le voyage'" [text]="article!.tripDescription"></app-trip-summary>
+        <app-our-opinion [positivePoints]="article!.positivePoints" [negativePoints]="article!.negativePoints" [advices]="article!.advices"></app-our-opinion>
+        <app-trip-summary [title]="'Résumé'" [text]="article!.summary"></app-trip-summary>
+        <app-image-article-gallery [gallery]="article!.gallery"></app-image-article-gallery>
+        <app-return-button></app-return-button>
 </section>
