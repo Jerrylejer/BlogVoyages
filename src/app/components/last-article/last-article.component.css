@@ -1,5 +1,6 @@
 .last-article {
     height: auto;
+    margin-top: 69px;
 }
 
 .last-article-container {
@@ -9,5 +10,9 @@
 
 .last-article-dates {
     margin-bottom: 44px;
+}
+
+h4 {
+    margin-bottom: 63px;
 }
 
