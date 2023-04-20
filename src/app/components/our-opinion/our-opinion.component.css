@@ -1,3 +1,8 @@
+.our-opinion {
+  height: auto;
+  width: 49vw;
+}
+
 .main-title{
     margin-bottom: 44px;
     margin-left: -40px;
@@ -8,7 +13,12 @@
   margin-left: -40px;
 }
 
-.liste {
-  margin-bottom: 33px;
+.moins {
+  margin-top: 57px;
 }
+
+.conseil {
+  margin-top: 57px;
+}
+
 
