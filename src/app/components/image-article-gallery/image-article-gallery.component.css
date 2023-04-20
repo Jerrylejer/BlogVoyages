@@ -1,3 +1,18 @@
 .gallery {
     height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.gallery-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 75%;
+    gap: 20px;
+}
+
+.title {
+    margin-bottom: 44px;
 }

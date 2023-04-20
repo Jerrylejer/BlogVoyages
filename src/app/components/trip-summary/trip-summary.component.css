@@ -12,8 +12,3 @@
 .main-title{
     margin-bottom: 44px;
 }
-
-.trip-container {
-    display: flex;
-    justify-content: flex-start;
-}
