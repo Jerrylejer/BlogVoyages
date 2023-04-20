@@ -15,6 +15,7 @@
     text-align: center;
     transform: rotate(-180deg);
     margin: 0 auto;
+    cursor: pointer;
 }
 
 .header-blank {
