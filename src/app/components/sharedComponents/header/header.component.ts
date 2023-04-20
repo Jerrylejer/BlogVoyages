@@ -1,4 +1,6 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
+import { ARTICLES, Iarticle } from 'src/app/mock/Article';
+import { IlocationResponse } from 'src/app/services/weather-service.service';
 
 @Component({
   selector: 'app-header',
@@ -6,5 +8,10 @@ import { Component } from '@angular/core';
   styleUrls: ['./header.component.css']
 })
 export class HeaderComponent {
+
+  datas: Iarticle[] = ARTICLES;
+  data!: Iarticle;
+
+  @Input() temp!: IlocationResponse;
 
 }
