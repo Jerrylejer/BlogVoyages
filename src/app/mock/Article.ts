@@ -97,7 +97,7 @@ export const ARTICLES: Iarticle[] = [
     city: 'Athène',
     departureDate: '01/01/2023',
     returnDate: '16/01/2023',
-    mainImage: '',
+    mainImage: '/assets/mainImages/greceMain.png',
     secondaryImages: '/assets/secondaryImages/grece.png',
     gallery: [],
     tripDescription:
@@ -125,7 +125,7 @@ export const ARTICLES: Iarticle[] = [
     city: 'Monterrico',
     departureDate: '14/09/2022',
     returnDate: '02/10/2022',
-    mainImage: '',
+    mainImage: '/assets/mainImages/guatemalaMain.png',
     secondaryImages: '/assets/secondaryImages/guatemala.png',
     gallery: [],
     tripDescription:
@@ -153,7 +153,7 @@ export const ARTICLES: Iarticle[] = [
     city: 'Tunis',
     departureDate: '13/06/2022',
     returnDate: '31/06/2022',
-    mainImage: '',
+    mainImage: '/assets/mainImages/tunisie1Main.png',
     secondaryImages: '/assets/secondaryImages/tunisie.png',
     gallery: [],
     tripDescription:
@@ -181,7 +181,7 @@ export const ARTICLES: Iarticle[] = [
     city: 'El Jem',
     departureDate: '13/06/2022',
     returnDate: '31/06/2022',
-    mainImage: '',
+    mainImage: '/assets/mainImages/tunisie2Main.png',
     secondaryImages: '/assets/secondaryImages/tunisie2.png',
     gallery: [],
     tripDescription:
