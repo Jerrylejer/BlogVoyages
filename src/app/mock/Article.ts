@@ -73,7 +73,7 @@ export const ARTICLES: Iarticle[] = [
       },
     ],
     tripDescription:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Felis eget velit aliquet sagittis id consectetur purus ut. Sed risus pretium quam vulputate dignissim suspendisse in est. Lectus sit amet est placerat in egestas erat. Morbi tincidunt ornare massa eget egestas. Purus faucibus ornare suspendisse sed. Montes nascetur ridiculus mus mauris vitae. Ligula ullamcorper malesuada proin libero nunc consequat interdum varius. Turpis in eu mi bibendum. Nunc vel risus commodo viverra maecenas accumsan. Pulvinar proin gravida hendrerit lectus a.',
+      '                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Felis eget velit aliquet sagittis id consectetur purus ut. Sed risus pretium quam vulputate dignissim suspendisse in est. Lectus sit amet est placerat in egestas erat. Morbi tincidunt ornare massa eget egestas. Purus faucibus ornare suspendisse sed. Montes nascetur ridiculus mus mauris vitae. Ligula ullamcorper malesuada proin libero nunc consequat interdum varius. Turpis in eu mi bibendum. Nunc vel risus commodo viverra maecenas accumsan. Pulvinar proin gravida hendrerit lectus a.',
     positivePoints: [
       { text: 'close to France' },
       { text: 'not expensive' },
@@ -88,7 +88,7 @@ export const ARTICLES: Iarticle[] = [
       { text: 'try to eat some local dishes, it worth !' },
     ],
     summary:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Senectus et netus et malesuada fames ac turpis. Risus commodo viverra maecenas accumsan lacus vel facilisis volutpat est. Pulvinar pellentesque habitant morbi tristique senectus et netus. ',
+      '                           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Senectus et netus et malesuada fames ac turpis. Risus commodo viverra maecenas accumsan lacus vel facilisis volutpat est. Pulvinar pellentesque habitant morbi tristique senectus et netus. ',
     topArticle: true,
   },
   {
