@@ -11,7 +11,6 @@ import { FooterComponent } from './components/sharedComponents/footer/footer.com
 import { OtherArticleComponent } from './components/other-article/other-article.component';
 import { ReturnButtonComponent } from './components/return-button/return-button.component';
 import { LastArticleComponent } from './components/last-article/last-article.component';
-import { MoreArticleLinksComponent } from './components/more-article-links/more-article-links.component';
 import { TripSummaryComponent } from './components/trip-summary/trip-summary.component';
 import { OurOpinionComponent } from './components/our-opinion/our-opinion.component';
 import { ImageArticleGalleryComponent } from './components/image-article-gallery/image-article-gallery.component';
@@ -27,7 +26,6 @@ import { HomepageTopLinkComponent } from './components/homepage-top-link/homepag
     OtherArticleComponent,
     ReturnButtonComponent,
     LastArticleComponent,
-    MoreArticleLinksComponent,
     TripSummaryComponent,
     OurOpinionComponent,
     ImageArticleGalleryComponent,
