@@ -1,6 +1,5 @@
-import { Component, Input } from '@angular/core';
-import { ARTICLES, Iarticle } from 'src/app/mock/Article';
-import { IlocationResponse } from 'src/app/services/weather-service.service';
+import { Component } from '@angular/core';
+import {  WeatherServiceService } from 'src/app/services/weather-service.service';
 
 @Component({
   selector: 'app-header',
@@ -9,9 +8,22 @@ import { IlocationResponse } from 'src/app/services/weather-service.service';
 })
 export class HeaderComponent {
 
-  datas: Iarticle[] = ARTICLES;
-  data!: Iarticle;
+  cityTemp!: number;
+  cityName!: string;
 
-  @Input() temp!: IlocationResponse;
+  constructor(private weatherService: WeatherServiceService) {}
+
+  //todo Visualisation globale des datas de l'API
+  // ngOnInit() {
+  //   console.log(this.weatherService.getLocation("tirana").subscribe((next) => console.log(next)))
+  // }
+
+  ngOnInit() {
+    this.weatherService.getLocation("tirana").subscribe((next) => {
+      this.cityTemp! = next.days[0].temp;
+      this.cityName! = next.address;
+      console.log(next)
+    })
+  }
 
 }

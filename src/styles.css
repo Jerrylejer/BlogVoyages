@@ -36,7 +36,9 @@ h4 {
   font-size: 16px;
 }
 
-p, ul, li {
+p,
+ul,
+li {
   font-family: "Inter", sans-serif;
   font-size: 20px;
   font-weight: 400;
@@ -49,4 +51,12 @@ p, ul, li {
   --header: #eedfd4;
   --black: #000000;
   --white: #ffffff;
+}
+
+/* MEDIAQUERIES */
+
+@media only screen and (max-width: 1190px) {
+  body {
+    margin-left: 0px;
+  }
 }
