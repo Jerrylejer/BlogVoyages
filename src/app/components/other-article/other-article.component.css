@@ -40,8 +40,8 @@
 }
 
 .trip {
-    margin-left: 49px;
-    font-weight: 400;
+  margin-left: 49px;
+  font-weight: 400;
 }
 
 .city {
@@ -49,8 +49,42 @@
 }
 
 .dates {
-    color: var(--white);
-    margin-right: 38px;
-    padding-left: 35px;
-    border-left: 1px solid white;
+  color: var(--white);
+  margin-right: 38px;
+  padding-left: 35px;
+  border-left: 1px solid white;
+}
+
+/* MEDIAQUERIES */
+
+@media only screen and (max-width: 1070px) {
+  img {
+    height: 80%;
+    width: 80%;
+  }
+
+  .caption {
+    height: 80px;
+    width: 80%;
+  }
+
+  figure {
+    margin-right: -100px;
+  }
+
+  .other-article-title {
+    font-size: 30px;
+  }
+
+  .trip {
+    font-size: 20px;
+  }
+
+  .city {
+    font-size: 14px;
+  }
+
+  .dates {
+    font-size: 12px;
+  }
 }

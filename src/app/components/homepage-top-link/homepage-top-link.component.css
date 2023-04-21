@@ -25,12 +25,88 @@
 }
 
 .trip {
-    margin-left: 49px;
+  margin-left: 49px;
 }
 
 .dates {
-    margin-right: 38px;
-    padding-left: 35px;
-    border-left: 1px solid white;
-    line-height: 7.2rem;
+  margin-right: 38px;
+  padding-left: 35px;
+  border-left: 1px solid white;
+  line-height: 7.2rem;
+}
+
+/* MEDIAQUERIES */
+@media only screen and (max-width: 1070px) {
+
+  .homepage-top-link-container {
+    margin-top: 114px;
+    margin-bottom: 102px;
+  }
+
+  figure.image {
+    width: 100vw;
+    margin-left: 15%;
+  }
+
+  img {
+    width: 80%;
+  }
+
+  .caption {
+    height: 20%;
+    width: 80%;
+  }
+
+  .trip {
+    font-size: 15px;
+    margin-left: unset;
+    padding: 25px;
+  }
+
+  .dates {
+    font-size: 10px;
+    line-height: unset;
+    margin-right: unset;
+    padding: 29px;
+  }
+}
+
+@media only screen and (max-width: 650px) {
+
+  figure {
+    display: flex;
+    justify-content: center;
+  }
+
+  figure.image {
+    width: 100vw;
+    margin-left: unset;
+  }
+
+  img {
+    width: 350px;
+    height: 350px;
+    object-fit:cover;
+    position: relative
+  }
+  
+  .caption {
+    width: 350px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+  }
+
+  .trip {
+    font-size: 15px;
+    margin-left: unset;
+    padding: 25px;
+  }
+
+  .dates {
+    font-size: 10px;
+    line-height: unset;
+    margin-right: unset;
+    padding: 29px;
+  }
 }
