@@ -1,18 +1,35 @@
 .last-article {
-    height: auto;
-    margin-top: 69px;
+  height: auto;
+  margin-top: 69px;
 }
 
 .last-article-container {
-    display: flex;
-    justify-content: flex-start;
+  display: flex;
+  justify-content: flex-start;
 }
 
 .last-article-dates {
-    margin-bottom: 44px;
+  margin-bottom: 44px;
 }
 
 h4 {
-    margin-bottom: 63px;
+  margin-bottom: 63px;
 }
 
+/* MEDIAQUERIES */
+@media only screen and (max-width: 1070px) {
+
+  img {
+    width: 100vw;
+  }
+}
+
+@media only screen and (max-width: 650px) {
+  img {
+    width: 350px;
+    height: 350px;
+    object-fit: cover;
+    position: relative;
+    margin-left: 15%;
+  }
+}
