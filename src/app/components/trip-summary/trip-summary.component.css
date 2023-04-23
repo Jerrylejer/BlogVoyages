@@ -13,3 +13,14 @@
     margin-top: 114px;
     margin-bottom: 44px;
 }
+
+@media only screen and (max-width: 750px) {
+
+    .main-title {
+        font-size: 28px;
+    }
+  
+    p {
+      font-size: 18px;
+    }
+  }
